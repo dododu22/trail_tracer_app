@@ -1,0 +1,16 @@
+# Environnement virtuel Python
+venv/
+env/
+
+# Fichiers de cache Python
+__pycache__/
+*.pyc
+
+# ⚠️ SECRETS ET CONFIGURATIONS (TRÈS IMPORTANT) ⚠️
+.streamlit/secrets.toml
+
+# Données locales et fichiers générés (pour ne pas polluer le dépôt)
+data/*.json
+data/*.pkl
+*.gpx
+*.csv
